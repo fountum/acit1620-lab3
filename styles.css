@@ -55,4 +55,11 @@ form button {
     text-decoration: none;
  }
 
- 
+ /* IMAGE STYLES */
+ img{
+    float:left;
+    max-width: 18%;
+    height: auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+ }
