@@ -38,10 +38,16 @@ form button {
     text-align: center;
  }              
 
+
  /* NAVIGATION STYLES */
- nav{
-    display:flex;
-    float:left
+ aside{
+    float:left;
+    margin-bottom: 100%;
+    margin-right: 2rem;
+    margin-top: -1.25rem    ;
+    padding-top: 0;
+
+    
  }
 
  nav ul li{
@@ -49,6 +55,7 @@ form button {
     text-align:right;      
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+
  }
 
  a:link{
@@ -60,6 +67,14 @@ form button {
     float:left;
     max-width: 18%;
     height: auto;
-    margin-left: 1rem;
     margin-right: 1rem;
+ }
+
+ /* FOOTER STYLES */
+ footer{
+    text-align: center;
+    position: absolute; 
+    bottom: 0;
+    width:100%;
+    background-color: teal;
  }
