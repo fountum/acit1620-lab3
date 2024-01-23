@@ -38,15 +38,23 @@ form button {
     text-align: center;
  }              
 
+/* PAGE LAYOUT */
+.page-container{
+    display:flex;   
+    flex-direction: column;
+}
 
- /* NAVIGATION STYLES */
+.page-container div{
+    display:flex;
+}
+
+ /* NAVIGATION STYLES 
  aside{
-    float:left;
-    margin-bottom: 100%;
-    margin-right: 2rem;
-    margin-top: -1.25rem    ;
-    padding-top: 0;
 
+    margin-right: 2rem;
+    margin-top: -1.25rem;
+    padding-top: 0;
+    
     
  }
 
@@ -58,23 +66,9 @@ form button {
 
  }
 
- a:link{
+ a:link{        
     text-decoration: none;
  }
 
- /* IMAGE STYLES */
- img{
-    float:left;
-    max-width: 18%;
-    height: auto;
-    margin-right: 1rem;
- }
-
- /* FOOTER STYLES */
- footer{
-    text-align: center;
-    position: absolute; 
-    bottom: 0;
-    width:100%;
-    background-color: teal;
- }
+*/
+ 
