@@ -46,7 +46,7 @@ form button {
 
  nav ul li{
     list-style: none;
-    text-align: right;
+    text-align:right;      
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
  }
@@ -58,7 +58,11 @@ form button {
  /* IMAGE STYLES */
  img{
     float:left;
+<<<<<<< HEAD
     max-width: 18%;
+=======
+    max-width: 20%;
+>>>>>>> img
     height: auto;
     margin-left: 1rem;
     margin-right: 1rem;
