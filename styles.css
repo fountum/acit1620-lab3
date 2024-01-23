@@ -69,7 +69,7 @@ footer {
 
 nav{
     text-align: right;
-    margin-right: 2rem;
+    margin-right: 2rem; 
 }
 
 li{
@@ -91,4 +91,36 @@ img{
  
 main p{
     margin-right: 2rem;
+}
+
+/* RESPONSIVE DESIGN */
+@media screen and (max-width: 600px){
+
+    .page-container div{
+        display: block;
+    }
+
+ 
+    ul{
+        text-align: left;
+        margin-bottom: 1.5rem;
+    }
+
+    li {
+        display: inline;
+        padding: 0.5rem;
+        border-left: solid;
+        border-color: #ccc;
+        border-width: 2px;
+    }
+
+    li:first-child{
+        border-left: none ;
+        padding-left: 0;
+    }
+
+    div main{
+        margin-left:5%;
+    }
+ 
 }
