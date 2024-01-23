@@ -42,22 +42,25 @@ form button {
 /* I should probably use a grid layout here but I think I need to modify HTML to do that */
 .page-container{
     display:flex;   
+    flex: 0 0 auto;
     flex-direction: column;
 }
 
 .page-container div{
     display:flex;
+    flex-wrap: wrap;
 }
 
 .page-container div main{
-    flex: 2 0 auto;
+    flex: 1;
 }
 
 /* FOOTER */
 footer {
     position: absolute;
     bottom: 0;
-    width: 100%;
+    text-align: center;
+    width: 100vw;
     background-color: teal;
     color: white;
 }
@@ -65,9 +68,8 @@ footer {
 /* NAVIGATIONS */
 
 nav{
-    width:80%;
     text-align: right;
-    margin-right: 4rem;
+    margin-right: 2rem;
 }
 
 li{
@@ -79,4 +81,14 @@ a {
     text-decoration: none;
 }
 
+/* IMAGE */
+img{
+    float:left;
+    max-width: 22%;
+    height: auto;
+    margin-right: 1.5rem;
+}
  
+main p{
+    margin-right: 2rem;
+}
