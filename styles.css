@@ -36,4 +36,23 @@ form button {
     padding: 1rem; 
     margin-bottom: 1rem;
     text-align: center;
+ }              
+
+ /* NAVIGATION STYLES */
+ nav{
+    display:flex;
+    float:left
  }
+
+ nav ul li{
+    list-style: none;
+    text-align: right;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+ }
+
+ a:link{
+    text-decoration: none;
+ }
+
+ 
